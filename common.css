@@ -1,0 +1,40 @@
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+	font-size: 18pt;
+	margin: 0 1em;
+}
+
+.wrapper{
+	display: flex;
+}
+
+.inputGroup{
+	margin: 1em 0;
+	display: flex;
+	flex-direction: column;
+}
+
+input[type="number"]{
+	margin-top: 0.2rem;
+	border: #ccc 0.2rem solid;
+	border-radius: 0.5rem;
+	font-size: 16pt;
+}
+
+input[type="submit"]{
+	border: none;
+	width: 100%;
+	transition: 0.2s background;
+	background: rgb(22, 207, 68);
+	border-radius: 0.5rem;
+	height: 2rem;
+	color: white;
+	font-size: 14pt;
+	filter: drop-shadow(0px 0px 1px rgb(15, 207, 25))
+}
+input[type="submit"]:hover{
+	background: rgb(21, 194, 64);
+}

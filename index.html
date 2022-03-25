@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="common.css">
+<title>Betongrør</title>
+<div class="wrapper">
+<form id="form">
+	<div class="inputGroup">
+		<label for="d">Indre diameter i dm</label>
+		<input type="number" name="d" id="d" step="0.01" min="0" required>
+	</div>
+	<div class="inputGroup">
+		<label for="D">Ytre diameter i dm</label>
+		<input type="number" name="D" id="D" step="0.01" min="0" required>
+	</div>
+	<div class="inputGroup">
+		<label for="l">Lengde i dm</label>
+		<input type="number" name="l" id="l" step="0.01" min="0" required>
+	</div>
+	<input type="submit">
+</form>
+<div id="out"></div>
+</div>
+<script src="main.js"></script>
